@@ -1,0 +1,1 @@
+<?php session_start();$config_basedir = "http://www.gethighered.ca";if($_SESSION['loggedin'] != 1){echo ("<script> window.alert('Please Login!') </script>");echo '<script> window.location = "signup.php" </script>"';}?>
